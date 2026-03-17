@@ -3,7 +3,7 @@ const tools = [
     name: "Conceptos Genuinos",
     tag: "Investigación",
     description: "Análisis de existencias de conceptos y marcas.",
-    image: "/src/assets/conceptos_genuinos.png",
+    image: "/assets/conceptos_genuinos.png",
     theme: "light",
     link: "https://conceptosgenuinos.lobueno.co/"
   },
@@ -11,7 +11,7 @@ const tools = [
     name: "My Voice",
     tag: "Identidad",
     description: "Motor generativo de copy estratégico hiper-parametrizado y basado en el ADN de tus marcas.",
-    image: "/src/assets/my_voice.png",
+    image: "/assets/my_voice.png",
     theme: "dark",
     link: "https://myvoice.lobueno.co/"
   },
@@ -19,7 +19,7 @@ const tools = [
     name: "Prompt Enginiere",
     tag: "Eficiencia",
     description: "Construcción de prompts para la generación de imágenes y video.",
-    image: "/src/assets/prompt_enginiere.png",
+    image: "/assets/prompt_enginiere.png",
     theme: "light",
     link: "https://prompts.lobueno.co/"
   },
@@ -27,7 +27,7 @@ const tools = [
     name: "Governance Builder",
     tag: "Eficiencia en Medios",
     description: "Creación de taxonomías de medios y planificación de campañas.",
-    image: "/src/assets/lobueno_vision.png",
+    image: "/assets/lobueno_vision.png",
     theme: "dark",
     link: "https://governance.lobueno.co/"
   },
@@ -35,7 +35,7 @@ const tools = [
     name: "Synapse",
     tag: "Data Room",
     description: "Chat con datos de Clientes.",
-    image: "/src/assets/insights_gpt.png",
+    image: "/assets/insights_gpt.png",
     theme: "light",
     link: "https://synapse.lobueno.co"
   }
