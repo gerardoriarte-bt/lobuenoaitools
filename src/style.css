@@ -50,6 +50,36 @@ body {
   max-width: 700px;
 }
 
+.filters {
+  display: flex;
+  gap: 12px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 10px 24px;
+  border-radius: 20px;
+  border: 1px solid rgba(0,0,0,0.1);
+  background: white;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+  color: var(--text-primary);
+}
+
+.filter-btn:hover {
+  background: #f5f5f7;
+  border-color: rgba(0,0,0,0.2);
+}
+
+.filter-btn.active {
+  background: var(--text-primary);
+  color: white;
+  border-color: var(--text-primary);
+}
+
 /* Carousel Section */
 .carousel-wrapper {
   overflow-x: auto;
