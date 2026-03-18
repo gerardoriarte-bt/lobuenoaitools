@@ -36,6 +36,17 @@ body {
   margin: 0 auto;
 }
 
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 40px;
+}
+
+.hero-titles {
+  flex: 1;
+}
+
 .hero-title {
   display: block;
   max-width: 300px;
@@ -55,6 +66,28 @@ body {
   transform: translateX(-50px);
   animation: slideInLeft 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
   animation-delay: 0.3s;
+}
+
+.hero-side-text {
+  max-width: 350px;
+  margin-bottom: 5px; /* Aligning with the subtitle bottom */
+}
+
+.hero-side-text p {
+  font-size: 10px;
+  line-height: 1.4;
+  color: var(--text-secondary);
+  text-align: left;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 900px) {
+  .hero-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
 }
 
 @keyframes slideInLeft {
