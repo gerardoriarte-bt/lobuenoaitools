@@ -42,6 +42,7 @@
   height: 14px; /* Sophisticated, small logo */
   width: auto;
   display: block;
+  filter: brightness(0) invert(1);
 }
 
 /* Spacer for content when header is fixed */
