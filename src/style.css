@@ -40,13 +40,14 @@ body {
   display: block;
   max-width: 300px;
   height: auto;
-  margin-bottom: -15px; /* Reducing gap significantly */
+  margin-bottom: -35px; /* Aggressively reducing gap to bring them closer */
 }
 
 .hero-subtitle {
   display: block;
   max-width: 500px;
   height: auto;
+  margin-top: 0;
 }
 
 .animated-subtitle {
