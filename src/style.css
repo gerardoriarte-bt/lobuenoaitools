@@ -40,7 +40,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  gap: 40px;
+  gap: 20px; /* Reduced gap */
 }
 
 .hero-titles {
@@ -74,7 +74,7 @@ body {
 }
 
 .hero-side-text p {
-  font-size: 10px;
+  font-size: 12px; /* Increased to 12px */
   line-height: 1.4;
   color: var(--text-secondary);
   text-align: left;
