@@ -40,7 +40,7 @@ body {
   display: block;
   max-width: 300px;
   height: auto;
-  margin-bottom: -35px; /* Aggressively reducing gap to bring them closer */
+  margin-bottom: 0px; /* Aggressively reducing gap to bring them closer */
 }
 
 .hero-subtitle {
