@@ -2,7 +2,7 @@ const tools = [
   {
     name: "Conceptos Genuinos",
     tag: "Investigación",
-    category: "Creatividad",
+    categories: ["Creatividad"],
     description: "Análisis de existencias de conceptos y marcas.",
     image: "/assets/conceptos_genuinos.png",
     theme: "light",
@@ -11,7 +11,7 @@ const tools = [
   {
     name: "My Voice",
     tag: "Identidad",
-    category: "Eficiencia",
+    categories: ["Eficiencia"],
     description: "Motor generativo de copy estratégico hiper-parametrizado y basado en el ADN de tus marcas.",
     image: "/assets/my_voice.png",
     theme: "dark",
@@ -20,7 +20,7 @@ const tools = [
   {
     name: "Prompt Enginiere",
     tag: "Eficiencia",
-    category: "Creatividad",
+    categories: ["Creatividad"],
     description: "Construcción de prompts para la generación de imágenes y video.",
     image: "/assets/prompt_enginiere.png",
     theme: "light",
@@ -29,7 +29,7 @@ const tools = [
   {
     name: "Governance Builder",
     tag: "Eficiencia en Medios",
-    category: "Data y Medios",
+    categories: ["Data y Medios"],
     description: "Creación de taxonomías de medios y planificación de campañas.",
     image: "/assets/lobueno_vision.png",
     theme: "dark",
@@ -38,7 +38,7 @@ const tools = [
   {
     name: "Synapse",
     tag: "Data Room",
-    category: "Data y Medios",
+    categories: ["Data y Medios", "Clients Tools"],
     description: "Chat con datos de Clientes.",
     image: "/assets/insights_gpt.png",
     theme: "light",
@@ -47,7 +47,7 @@ const tools = [
   {
     name: "Iqos, Curiosity Catalyst",
     tag: "Idea Generator",
-    category: "Clients Tools",
+    categories: ["Clients Tools"],
     description: "Orquestador de ideas y conceptos para campañas de IQOS.",
     image: "/assets/iqos_catalyst.png",
     theme: "light",
@@ -64,7 +64,7 @@ function renderTools(filter = 'all') {
   const carousel = document.getElementById('tools-carousel');
   const filteredTools = filter === 'all' 
     ? tools 
-    : tools.filter(tool => tool.category === filter);
+    : tools.filter(tool => tool.categories.includes(filter));
 
   carousel.innerHTML = filteredTools.map(tool => `
     <a href="${tool.link}" target="_blank" class="card-link">
