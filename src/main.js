@@ -45,11 +45,11 @@ const tools = [
     link: "https://synapse.lobueno.co"
   },
   {
-    name: "Iqos, Curiosity Catalist",
+    name: "Iqos, Curiosity Catalyst",
     tag: "Idea Generator",
     category: "Clients Tools",
     description: "Orquestador de ideas y conceptos para campañas de IQOS.",
-    image: "/assets/insights_gpt.png",
+    image: "/assets/iqos_catalyst.png",
     theme: "light",
     link: "https://iqos.lobueno.co/"
   }
