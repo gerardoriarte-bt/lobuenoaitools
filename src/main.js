@@ -44,6 +44,15 @@ const tools = [
     theme: "light",
     link: "https://synapse.lobueno.co"
   }
+   {
+    name: "Iqos, Curiosity Catalist",
+    tag: "Idea Generator",
+    category: "Clients Tools",
+    description: "Orquestador de ideas y conceptos para campañas de IQOS.",
+    image: "/assets/insights_gpt.png",
+    theme: "light",
+    link: "https://iqos.lobueno.co/"
+  }
 ];
 
 // Map the generated artifacts to the local src/assets folder
