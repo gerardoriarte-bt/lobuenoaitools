@@ -43,8 +43,8 @@ const tools = [
     image: "/assets/insights_gpt.png",
     theme: "light",
     link: "https://synapse.lobueno.co"
-  }
-   {
+  },
+  {
     name: "Iqos, Curiosity Catalist",
     tag: "Idea Generator",
     category: "Clients Tools",
